@@ -1,0 +1,46 @@
+etiquetas
+<h1> titulo </h1>  encabezados
+<p> texto </p>     parrafos
+<b> texto </b>     negrita 
+<strong>texto </strong> negrita(fuerza)
+<i> texto </i>     cursiva
+<em> texto  </em>  cursiva(enfasis)
+<hr>               linea horizontal
+<br>               espacios
+
+ETIQUETAS DE ESTRUCTURA 
+<header> </header> lleva la informacion de encabezadotitulo ,logo
+<nav> </nav> enlases de navegacion
+<aside> </aside> lleva infromarcion adicional
+<section> </section> permite separar por secciones
+  <article></article> se pueden agrregar articulos
+
+<footer></footer> pie de paginas para la pagina 
+
+LISTAS 
+<ul> listas desordenadas
+<ol> listas ordenadas
+<li> item de la lista
+<dl> lista de descripcion
+<dt> terminos 
+<dd> descripcion del termino 
+
+TABLAS 
+<table>   para definir TABLA
+<tr>      crea una fila
+<td>      define el contenido de la TABLA
+<th>      define el contenido principal 
+<caption> define un titulo para la TABLA
+colspan   hace que una celda se expanda varias columnas
+rowspan   hace que una celda se expanda varias filas 
+
+AUDIO Y VIDEO
+<audio></audio> permite agrregar un audio
+<video></video> permite agregar un video 
+<source>        define la direccion y tipo de archivo a cargar 
+src             direccion del archivo 
+type            tipo de archivo
+controls        permite visualizar controles sobre el medio
+loop            repeticion continua del medio 
+autoplay        reproduccion automatica del medio 
+mute            silencia el medio 

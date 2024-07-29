@@ -1,0 +1,65 @@
+<h2> formulario</h2>
+<form action="">
+    <fieldset>
+        <legend>datos de usuario</legend>
+
+        <label for="name">nombre:</label> <br>
+        <input type="text" id="name" name="name" placeholder="ingresa aqui tu nombre"><br> <!--el placeholder muestra un ejemplo de como se deberia completar el formulario-->
+
+        <label for="">correo:</label> <br>
+        <input type="email" id="" name="email" required><br> <!--el required hace que se necesite que se complete ese parametro-->
+        
+        <label for="pass">contrasenia:</label> <br>
+        <input type="password" id="pass" name="pass" autofocus><br> <!--el autofocus hcae que al inciar el codigo se centre en ese input-->
+        
+        <label for="birthday">fecha de nacimiento:</label> <br>
+        <input type="date" id="birthday" name="birthday"><br>
+
+        <label for="cv"> ingresar tu cv</label>
+        <input type="file" id="cv" name="cv">
+        
+        <textarea name="descripcion" id="descripcion" cols="60" rows="10"></textarea>
+
+    </fieldset>
+    <fieldset>
+        <legend>color favorito</legend>
+
+        <input type="radio" id="red" name="color" value="red">
+        <label for="red">rojo</label><br>
+
+        <input type="radio" id="blue" name="color" value="blue">
+        <label for="blue">azul</label><br>
+
+        <input type="radio" id="green" name="color" value="green">
+        <label for="green">verde</label><br>
+
+        <input type="color" name="color"><br>
+        <!--ahora para hacer un selector de opcion con opciones definidas-->
+        <select name="color2" id="color2">
+            <option value="blue">azul</option>
+            <option value="red">rojo</option>
+            <option value="green">verde</opcion>
+        </select>
+
+ 
+        </fieldset>
+        <fieldset> 
+            <legend>hobbies </legend>
+
+            <input type="checkbox" id="read" name="hobby1" value="read">
+            <label for="read"> leer</label><br>
+
+            <input type="checkbox" id="dance" name="hobby2" value="dance">
+            <label for="dance"> bailar</label><br>
+
+            <input type="checkbox" id="coding" name="hobby3" value="coding">
+            <label for="coding"> programar</label><br>
+
+        </fieldset>
+        <br>
+        <input type="submit" value="listo">
+        <input type="reset" value="borrar">
+
+
+
+</form>
